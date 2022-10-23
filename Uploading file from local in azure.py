@@ -8,7 +8,7 @@ sys.path.insert(0, dir_path)
 def Upload_file_on_Azure(connection_str,storage_account_name, container_name, local_file_name):
     """
     Upload_file_on_Azure function.
-        it upload file from local in Azure cloud.
+      it uploads file from local in Azure cloud.
     Parameter:
      connection_str => Your azure connection string.
      storage_account_name => The name of your azure storage account.
